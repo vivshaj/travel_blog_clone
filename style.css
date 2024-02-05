@@ -583,27 +583,33 @@ h5  {
 
 .conts  {
     width:100%;
-    margin-top:23rem;
+    margin-top:25rem;
 }
 
 
-.conts .rows  {
+.conts .rows1  {
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding:1rem;
+    padding:0 1rem;
     align-items: center;
+    gap:2.3rem;
 }
 
-.conts .rows .cols  {
+.conts .rows1 .cols1  {
     width:47%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border:10px solid #fff;
-    box-shadow:0 0 8px 0 rgba(0,0,0,.6);
+    
+    /*border:10px solid #fff;
+    box-shadow:0 0 8px 0 rgba(0,0,0,.6);*/
 }
 
+.conts .rows1 .cols1  iframe {
+    width:100%;
+    height:20rem;
+}
 
 
 .Video button {
